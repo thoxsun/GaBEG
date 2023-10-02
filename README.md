@@ -42,17 +42,17 @@ which depend on the group of foundation modules.
 Following cluster member selection modules are called the **single parameter selection
 modules**, which can be used in arbitrary order:
 
--  proper motion    (proper_motion_evaluation_loop.py)
--  radial velocity  (gaiaRadV elSelection.py)
--  parallax         (gaiaP arallaxSelection.py)
+-  proper motion    ( proper_motion_evaluation_loop.py)
+-  radial velocity  ( gaiaRadV elSelection.py)
+-  parallax         ( gaiaP arallaxSelection.py)
 
 Note however, that one does not need to change file-paths and names if single parameter selection modules are used in above order!
 
 For **cluster member selection**, one most use the adjoined modules
 
-1) angular position (GAIA_query_circle.py)
+1) angular position ( GAIA_query_circle.py)
 2) single parameter selection modules
-3) cluster member selection (gaiaClusterM emberSelection.py)
+3) cluster member selection ( gaiaClusterMemberSelection.py)
 
 in the listed order.
 
@@ -61,20 +61,17 @@ in the listed order.
 ## Bolometric TRGB brightness evaluation modules
 To derive the bolometric TRGB brightness of a GC, the bolometric brightness evaluation modules
 
-1) distance (gaiaDistEval.py)
-2) extinction (gaiaExt.py)
-3) bolometric correction with Gaiadr3 Bcg algorithm (gaiaBCg.py)
-4) bolometric correction approximation (gaiaBCg_approximation.py)
-5) RGB selection (gaiaAGBRGBseparation.py)
-6) TRGB and axion-electron coupling bound evaluation (gaiaT RGB_g13_eval.py)
+1) distance         ( gaiaDistEval.py)
+2) extinction       ( gaiaExt.py)
+3) bolometric correction with Gaiadr3 Bcg algorithm   ( gaiaBCg.py)
+4) bolometric correction approximation                ( gaiaBCg_approximation.py)
+5) RGB selection    ( gaiaAGBRGBseparation.py)
+6) TRGB and axion-electron coupling bound evaluation  ( gaiaT RGB_g13_eval.py)
 need to be executed in the listed order. 
 
 The single object epoch photometry analysis module
-
 • gaiaSingleObjectAnalysis.py 
-
 enables the derivation of stars being variables and should be used to investigate the brightest RGB star, selected for the TRGB evaluation. 
-
 
 The modules directly include documentation on necessary input data to load, package
 dependencies, functionality, structure, parameters, and generated tables and plots.
