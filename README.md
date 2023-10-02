@@ -35,7 +35,7 @@ The GaBEG modules are separated in
 -  cluster member selection modules, and 
 -  bolometric TRGB brightness evaluation modules, 
 
-which depend on the group of fundamental modules.
+which depend on the group of foundation modules.
 
 
 ## Cluster member selection modules
