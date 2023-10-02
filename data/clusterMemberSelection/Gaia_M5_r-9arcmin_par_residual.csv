@@ -1,0 +1,1 @@
+source_id,designation,ra,dec,l,b,ref_epoch,parallax,parallax_error,pm,pmra,pmdec,phot_g_mean_mag,bp_rp,radial_velocity,ruwe,phot_variable_flag,non_single_star,teff_gspphot,logg_gspphot,distance_gspphot,mh_gspphot,azero_gspphot,ag_gspphot,ebpminrp_gspphot,astrometric_params_solved,nu_eff_used_in_astrometry,pseudocolour,ecl_lat,alphafe_gspspec,mh_gspphot_1,fem_gspspec

@@ -1,0 +1,87 @@
+J/A+A/558/A12       M5 (NGC5904) UBVRI photometry                 (Viaux+, 2013)
+================================================================================
+Particle-physics constraints from the globular cluster M5:
+neutrino dipole moments.
+    Viaux N., Catelan M., Stetson P., Raffelt G., Redondo J., Valcarce A.,
+    Weiss A.
+   <Astron. Astrophys. 558, A12 (2013)>
+   =2013A&A...558A..12V
+================================================================================
+ADC_Keywords: Clusters, globular ; Photometry, UBVRI
+Keywords: globular clusters: general -
+          globular clusters: individual: M5 - stars: evolution -
+          stars: interiors - neutrinos - Hertzsprung-Russell and C-M diagrams
+
+Abstract:
+    Stellar evolution is modified if energy is lost in a "dark channel"
+    similar to neutrino emission. Comparing modified stellar evolution
+    sequences with observations provides some of the most restrictive
+    limits on axions and other hypothetical low-mass particles and on
+    non-standard neutrino properties. In particular, a putative neutrino
+    magnetic dipole moment {mu}_{nu}_ enhances the plasmon decay process,
+    postpones helium ignition in low-mass stars, and therefore extends the
+    red-giant branch (RGB) in globular clusters (GCs). The brightness of
+    the tip of the RGB (TRGB) remains the most sensitive probe for
+    {mu}_{nu}_ and we revisit this argument from a modern perspective.
+    Based on a large set of archival observations, we provide
+    high-precision photometry for the Galactic GC M5 (NGC 5904) and
+    carefully determine its TRGB position.
+
+Description:
+    We have carried out crowded-field, point-spread function (PSF)
+    photometry for M5 using the DAOPHOT II/ALLFRAME suite of programs
+    (Stetson 1987PASP...99..191S, 1994PASP..106..250S).
+
+    The current corpus of observations for M5 consists of 2840 CCD images
+    obtained during 40 observing runs on 12 telescopes over a span of 27
+    years (1984-2011)
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+photm5.dat     93    83351   UBVRI photometry of NGC 5904 (M5)
+--------------------------------------------------------------------------------
+
+See also:
+ J/AJ/106/1524  : Proper motions in M5 (Rees, 1993)
+ J/PAZh/21/509  : Identification and coordinates in M5 (Evstigneeva,+ 1995)
+ J/ApJ/611/323  : BVI photometry of M5 giant branch stars (Sandquist+, 2004)
+ J/ApJ/632/266  : WFPC2 photometry of the globular cluster M5 (Layden+, 2005)
+ J/ApJ/648/1026 : HST photometry of M5 blue stragglers (Warren+, 2006)
+ J/ApJ/663/267  : M5 globular cluster blue straggler population (Lanzoni+, 2007)
+ J/AJ/139/2289  : Abundances of five red giants in M5 (Koch+, 2010)
+ J/AJ/141/62    : M5 chemical abundances for evolved stars (Lai+, 2011)
+ J/A+A/549/A41  : Horizontal branch stars in 47 Tuc and M5 (Gratton+, 2013)
+
+Byte-by-byte Description of file: photm5.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  2  I2    h       RAh       Right ascension (J2000)
+   4-  5  I2    min     RAm       Right ascension (J2000)
+   7- 11  F5.2  s       RAs       Right ascension (J2000)
+      13  A1    ---     DE-       Declination sign (J2000)
+  14- 15  I2    deg     DEd       Declination (J2000)
+  17- 18  I2    arcmin  DEm       Declination (J2000)
+  20- 23  F4.1  arcsec  DEs       Declination (J2000)
+  25- 30  F6.3  mag     Umag      ?=99.999 U magnitude (1)
+  32- 37  F6.4  mag   e_Umag      ?=9.9999 rms uncertainty on Umag
+  39- 44  F6.3  mag     Bmag      ?=99.999 B magnitude (1)
+  46- 51  F6.4  mag   e_Bmag      ?=9.9999 rms uncertainty on Bmag
+  53- 58  F6.3  mag     Vmag      ?=99.999 V magnitude (1)
+  60- 65  F6.4  mag   e_Vmag      ?=9.9999 rms uncertainty on Vmag
+  67- 72  F6.3  mag     Rmag      ?=99.999 R magnitude (1)
+  74- 79  F6.4  mag   e_Rmag      ?=9.9999 rms uncertainty on Rmag
+  81- 86  F6.3  mag     Imag      ?=99.999 I magnitude (1)
+  88- 93  F6.4  mag   e_Imag      ?=9.9999 rms uncertainty on Imag
+--------------------------------------------------------------------------------
+Note (1): magnitudes reduced to the Landolt system
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Nicolas Viaux, nviaux(at)astro.puc.cl
+
+================================================================================
+(End)       Nicolas Viaux [PUC], Patricia Vannier [CDS]              28-Aug-2013
