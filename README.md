@@ -46,6 +46,8 @@ modules**, which can be used in arbitrary order:
 -  radial velocity  (gaiaRadV elSelection.py)
 -  parallax         (gaiaP arallaxSelection.py)
 
+Note however, that one does not need to change file-paths and names if single parameter selection modules are used in above order!
+
 For **cluster member selection**, one most use the adjoined modules
 
 1) angular position (GAIA_query_circle.py)
