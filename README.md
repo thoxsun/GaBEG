@@ -1,5 +1,4 @@
-# GaBEG
-Gaia bolometric Brightness Evaluation for Globular clusters 
+# GaBEG - Gaia bolometric Brightness Evaluation for Globular clusters 
 
 For evaluation of the bolometric GC TRGB brightness with Gaia DR3 and future releases, I
 wrote the Gaia bolometric Brightness Evaluation for Globular clusters (GaBEG) modules.
